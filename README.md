@@ -12,8 +12,4 @@ light saber that follows cursor for html documents that uses JQuery and CSS.
 
 `<script type="text/javascript" src="js/light_saber.js"></script>`
 
-3. Add this line to your html code
-
-`<img src="img/lightsaber.png" class="lightsaber" style="position:absolute; display:none;"></img>` 
-
 
