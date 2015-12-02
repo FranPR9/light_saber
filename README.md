@@ -4,7 +4,7 @@
 ![alt tag](https://dl.dropboxusercontent.com/u/80435/lightsaber.gif)
 
 ## Description:
-light saber that follows cursor for html documents that uses JQuery and CSS.
+light saber that follows cursor for html documents that uses Javascript and CSS.
 
 ## How to:
 1. Copy the light_saber.js to your js directory
