@@ -14,8 +14,7 @@
     var lightsaberAudioOn=1;
     var lightsaberAudioSrc="audio/sthswng1.WAV";
     var audio = new Audio(lightsaberAudioSrc);
-    console.log(audio);
-     var lightsaber =  document.createElement("IMG");
+    var lightsaber =  document.createElement("IMG");
      lightsaber.style.zIndex=lightsaberzindex;
      lightsaber.setAttribute("src","img/lightsaber.png");
      lightsaber.setAttribute("class","lightsaber");
@@ -65,7 +64,6 @@
 		}
 
 			lightsaber.style.position="absolute";
-			console.log("x:"+currentMousePos.x+" -"+menos.x+" y:"+currentMousePos.y+" -"+menos.x);
 			lightsaber.style.top=(currentMousePos.y - menos.y)+"px" ;
 			lightsaber.style.left=(currentMousePos.x - menos.x)+"px";
 
@@ -81,11 +79,11 @@
     {
 		lightsaber.setAttribute("src",src);
     }
-    function LightSaber_setBlue(src)
+    function LightSaber_setBlue()
     {
 		lightsaber.setAttribute("src","img/bluesaber.png");
     }
-    function LightSaber_setGreen(src)
+    function LightSaber_setGreen()
     {
 		lightsaber.setAttribute("src","img/greensaber.png");
     }
