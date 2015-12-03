@@ -22,7 +22,7 @@
 
      lightsaber.style.display="none";
      
-
+      var magic = 0;
      document.onmousemove=function(event)
      {
 	    lightsaber.style.display="block";
@@ -33,27 +33,31 @@
 
 		var rotationSpeed = Math.floor(Math.abs(lastcurrentx - currentMousePos.x));
 
-		if (rotation < 130) {
 		    if (rotationSpeed > 10)
 		    {
 		    	if(lightsaberAudioOn==1)
 				audio.play();
 		    }
+		if (rotation < 130) {
 		    if (lastcurrentx < currentMousePos.x)
 		    {
 				rotation += rotationSpeed;
 				if(rotation>130)rotation=130;
-				menos.x = 10;
-				menos.y = 80;
-			}
+				menos.x = 90 - 7.5*magic;
+	  console.log(magic)	
+				menos.y = 100 -  2.5*magic;
+			  if (magic<10){
+				magic++;
+}
+			} else {
+		      if (magic > 0){
+			magic--;
+}
+		    } 
+		  
 		}
 		if (rotation > 0) 
 		{
-			if (rotationSpeed > 10)
-		    {
-		    	if(lightsaberAudioOn==1)
-				audio.play();
-		    }
 		    if (lastcurrentx > currentMousePos.x) 
 		    {
 				rotation -= rotationSpeed;
@@ -69,7 +73,7 @@
 
 			if ((cont % 7) == 0) {
 			    lightsaber.style.webkitTransform="rotate(" + rotation + "deg)";
-			    
+//			  lightsaber.style.webkitTransformOrigin= menos.x + "px" + menos.y + "px"; 
 			}
 
     }
