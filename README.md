@@ -1,6 +1,6 @@
 # Light Saber Cursor FUN!!!
 
-##[DEMO](http://www.akademio.xyz/beta/starwars)
+##[DEMO](http://www.tryakademio.com/beta/starwars/)
 ![alt tag](https://dl.dropboxusercontent.com/u/80435/lightsaber.gif)
 
 ##[Chrome Extension](https://chrome.google.com/webstore/detail/light-saber/ecjhncafajenonjhgojomkbpbnbclkbk/related)
