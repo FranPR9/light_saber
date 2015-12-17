@@ -3,6 +3,10 @@
 ##[DEMO](http://www.akademio.xyz/beta/starwars)
 ![alt tag](https://dl.dropboxusercontent.com/u/80435/lightsaber.gif)
 
+##[Chrome Extension](https://chrome.google.com/webstore/detail/light-saber/ecjhncafajenonjhgojomkbpbnbclkbk/related)
+
+
+
 ## Description:
 light saber that follows cursor for html documents that uses Javascript and CSS.
 
