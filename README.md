@@ -4,8 +4,6 @@
 ![alt tag](https://dl.dropboxusercontent.com/u/80435/lightsaber.gif)
 
 ##[Chrome Extension](https://chrome.google.com/webstore/detail/light-saber/ecjhncafajenonjhgojomkbpbnbclkbk/related)
-![alt tag](https://www.dropbox.com/pri/get/lightsaber%20(1).gif?_subject_uid=118644337&w=AACfrH16y7ZPydW7evSxolhKeMqe7ZP65QAZ50RbNU6TFQ&raw=1)
-
 
 ## Description:
 light saber that follows cursor for html documents that uses Javascript and CSS.
